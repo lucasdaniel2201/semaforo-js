@@ -19,7 +19,6 @@ setInterval(() => {
 
 function iniciarCiclo() {
     ciclo = setInterval(trocarSemaforo, 4000);
-    contador = 0;
 };
 
 
