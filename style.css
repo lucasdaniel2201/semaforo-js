@@ -8,10 +8,10 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #c2c2c2;
+    background-color:#2c2c2c
 }
 .semaforo {
-    background-color:#006400;
+    background-color:slategrey;
     width: 500px;
     height: 300px;
     display: flex;
@@ -22,7 +22,7 @@ body{
     padding: 50px;
 }
 .farol, .pedestre {
-    background-color: #2c2c2c;
+    background-color: #000000;
     width: 80px;
     height: 200px;
     display: flex;
@@ -72,13 +72,13 @@ span {
     width: 100px;
     height:30px;
     border-radius: 5px;
-    background-color: #696969;
+    background-color: #2c2c2c;
     color: #FFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-right: 30px;
 }
 .btnPedestre {
-    background-color: #696969;
+    background-color: #2c2c2c;
     font-weight: 600;
     border: none;
     color: #FFF;
